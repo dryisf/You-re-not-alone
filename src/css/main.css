@@ -1,0 +1,134 @@
+/* GLOBAL */
+.heading{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+/* BODY */
+body{
+    background-color: black;
+}
+
+/* HEADER */
+.header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .headerLogo{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 1%;
+    font-weight: bolder;
+}
+
+.header img{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.header .headerMenu{
+     font-family: 'Montserrat', sans-serif;
+     float: right;
+     margin-right: 1%;
+}
+
+.header .headerMenu a{
+    margin-right: 15px;
+    color: white;
+}
+
+.header .headerMenu a:hover{
+    color: #0abde3;
+}
+
+/* BANNER */
+.banner{
+    margin-top: -50px;
+}
+
+.banner .bannerImage{
+    position: relative;
+}
+
+.banner .bannerContent{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 35%;
+}
+
+.banner .bannerContent h1,
+.banner .bannerContent h2{
+    color: white;
+}
+
+/* POSTER */
+div.tile.is-ancestor{
+    text-align: center;
+    margin-left: 10%;
+}
+
+.container .tile .box{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+/* ABOUT */
+.about{
+    color: white;
+    
+}
+
+.about .about-single-element{
+    text-align: center;
+}
+
+.about .about-single-element p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer .footerInformations{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .footerInformations ul{
+    padding: 0;
+}
+
+.footer .footerInformations ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer .footerContactForm{
+    background-color: black;    
+}
+
+.footer .footerContactForm .field .label{
+    color: white;
+}
+
+.footer .footerContactForm .button{
+    margin-top: 15px;
+}
